@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { getPlayer } from "../api/chessApi";
 import type { ChessComPlayer } from "../api/types";
-import { Clock } from "../components/clock";
+import { Clock } from "../components/Clock";
 import { PlayerInfo } from "../components/Playerinfo";
 
 export function Profiles() {
